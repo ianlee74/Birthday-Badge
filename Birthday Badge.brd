@@ -22,8 +22,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
@@ -301,10 +301,10 @@
 <wire x1="87.63" y1="35.8775" x2="90.805" y2="33.655" width="1.016" layer="121" curve="-310.395513" cap="flat"/>
 <wire x1="86.0425" y1="35.8775" x2="87.63" y2="35.8775" width="1.016" layer="121"/>
 <wire x1="21.2725" y1="36.195" x2="22.5425" y2="36.195" width="1.016" layer="121"/>
-<text x="67.31" y="33.655" size="1.778" layer="16" rot="MR0">Created by Ian Lee, Sr.</text>
-<text x="63.8175" y="31.115" size="1.778" layer="16" rot="MR0">http://ianlee.info</text>
-<text x="66.9925" y="28.575" size="1.778" layer="16" rot="MR0">ian@houseoflees.net</text>
-<text x="69.215" y="37.1475" size="1.778" layer="16" rot="SMR0">Happy 6th birthday Zander!</text>
+<text x="69.85" y="32.0675" size="1.778" layer="16" rot="MR0">Created by Ian Lee, Sr.</text>
+<text x="68.8975" y="28.8925" size="1.778" layer="16" rot="MR0">ian@houseoflees.net</text>
+<text x="69.215" y="35.2425" size="1.778" layer="122" rot="SMR0">Happy 6th birthday Zander!</text>
+<text x="92.71" y="39.0525" size="1.778" layer="16" rot="MR0">http://blog.ianlee.info/2012/09/birthday-badge.html</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -7207,7 +7207,7 @@ design rules under a new name.</description>
 <element name="C1" library="rcl" package="C1210K" value="22 uF" x="59.3725" y="18.0975" smashed="yes" rot="R90">
 <attribute name="VALUE" x="61.30108125" y="18.55181875" size="1.016" layer="27" rot="R180"/>
 </element>
-<element name="U$1" library="n5ebw" package="OSHW1" value="" x="83.5025" y="29.5275" rot="MR0"/>
+<element name="U$1" library="n5ebw" package="OSHW1" value="" x="81.28" y="27.305" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$2">
@@ -7229,7 +7229,6 @@ design rules under a new name.</description>
 <wire x1="82.8675" y1="25.0825" x2="79.375" y2="28.575" width="0.254" layer="1"/>
 <wire x1="79.375" y1="28.575" x2="74.93" y2="28.575" width="0.254" layer="1"/>
 <wire x1="74.93" y1="28.575" x2="72.39" y2="26.035" width="0.254" layer="1"/>
-<wire x1="28.8925" y1="17.40969375" x2="30.42719375" y2="15.875" width="0.254" layer="16"/>
 <wire x1="30.42719375" y1="15.875" x2="36.83" y2="15.875" width="0.254" layer="16"/>
 <wire x1="75.2475" y1="13.335" x2="67.745" y2="13.335" width="0.254" layer="16"/>
 <wire x1="39.37" y1="8.255" x2="40.64" y2="6.985" width="0.254" layer="1"/>
@@ -7239,7 +7238,8 @@ design rules under a new name.</description>
 <via x="67.745" y="7.7375" extent="1-16" drill="0.6"/>
 <wire x1="26.67" y1="19.05" x2="30.48" y2="22.86" width="0.254" layer="16"/>
 <wire x1="30.48" y1="22.86" x2="30.48" y2="23.1775" width="0.254" layer="16"/>
-<wire x1="28.575" y1="17.78" x2="28.8925" y2="17.40969375" width="0.1524" layer="16"/>
+<wire x1="28.575" y1="17.78" x2="28.8925" y2="17.40969375" width="0" layer="19" extent="1-16"/>
+<wire x1="30.42719375" y1="15.875" x2="28.8925" y2="17.40969375" width="0.254" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="PT" pad="K"/>
@@ -7278,12 +7278,13 @@ design rules under a new name.</description>
 <contactref element="IR" pad="K"/>
 <contactref element="Q2" pad="3"/>
 <contactref element="C1" pad="1"/>
-<wire x1="67.31" y1="19.05" x2="69.85" y2="21.2725" width="0.254" layer="16"/>
-<wire x1="69.85" y1="21.2725" x2="74.6125" y2="21.2725" width="0.254" layer="16"/>
-<wire x1="74.6125" y1="21.2725" x2="76.5175" y2="23.1775" width="0.254" layer="16"/>
 <wire x1="76.5175" y1="23.1775" x2="76.5175" y2="23.495" width="0.254" layer="16"/>
 <wire x1="59.3725" y1="16.5975" x2="64.8575" y2="16.5975" width="0.254" layer="1"/>
 <wire x1="64.8575" y1="16.5975" x2="67.31" y2="19.05" width="0.254" layer="1"/>
+<wire x1="67.31" y1="19.05" x2="67.6275" y2="19.05" width="0.254" layer="16"/>
+<wire x1="67.6275" y1="19.05" x2="70.1675" y2="21.59" width="0.254" layer="16"/>
+<wire x1="70.1675" y1="21.59" x2="74.6125" y2="21.59" width="0.254" layer="16"/>
+<wire x1="74.6125" y1="21.59" x2="76.5175" y2="23.495" width="0.254" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="R2" pad="P$1"/>
@@ -7302,8 +7303,8 @@ design rules under a new name.</description>
 <wire x1="56.1975" y1="11.43" x2="56.8325" y2="12.065" width="0.254" layer="1"/>
 <wire x1="56.8325" y1="12.065" x2="56.8325" y2="17.4625" width="0.254" layer="1"/>
 <wire x1="56.8325" y1="17.4625" x2="57.4675" y2="18.0975" width="0.254" layer="1"/>
-<wire x1="62.23" y1="18.0975" x2="64.135" y2="18.0975" width="0.254" layer="1"/>
-<wire x1="64.135" y1="18.0975" x2="67.31" y2="21.59" width="0.254" layer="1"/>
+<wire x1="62.23" y1="18.0975" x2="63.8175" y2="18.0975" width="0.254" layer="1"/>
+<wire x1="63.8175" y1="18.0975" x2="67.31" y2="21.59" width="0.254" layer="1"/>
 </signal>
 <signal name="N$11">
 <contactref element="R3" pad="P$1"/>
